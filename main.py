@@ -660,8 +660,8 @@ Bucket2=Bucket(c22)
 Bucket2.is_directory=True
 # B1_arr=[Bucket1]*999999
 # B2_arr=[Bucket2]*999999
-B1_arr = [Bucket(3) for _ in range(999999)]
-B2_arr = [Bucket(3) for _ in range(999999)]
+B1_arr = [Bucket(c11) for _ in range(999999)]
+B2_arr = [Bucket(c22) for _ in range(999999)]
 Sec_memory=Secondary_Memory(B1_arr,B2_arr)
 directory=Directory()
 Menu()
